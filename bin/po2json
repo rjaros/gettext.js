@@ -25,7 +25,7 @@
 
 var
   fs = require('fs'),
-  po2json = require('po2json'),
+  po2json = require('@rjaros/po2json'),
   argv = process.argv,
   json = {},
   pretty = '-p' === argv[4];
